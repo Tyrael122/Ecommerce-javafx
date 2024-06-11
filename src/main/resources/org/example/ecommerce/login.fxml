@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="org.example.ecommerce.view.LoginView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <TextField fx:id="txtUsuario" alignment="CENTER" layoutX="226.0" layoutY="157.0" promptText="USUÁRIO" />
+   <PasswordField fx:id="txtSenha" alignment="CENTER" layoutX="226.0" layoutY="218.0" promptText="SENHA" />
+   <Button fx:id="btnLogin" layoutX="274.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnLoginOnClick" text="LOGIN" />
+   <Label layoutX="268.0" layoutY="71.0" text="BEM VINDO" />
+</Pane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<!--<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ecommerce.view.MenuPrincipalView">-->
+   <Button fx:id="btnCadastroFuncionario" layoutX="88.0" layoutY="125.0" mnemonicParsing="false" onAction="#btnCadastroFuncionarioOnClick" prefHeight="25.0" prefWidth="186.0" text="CADASTRO DE FUNCIONÁRIOS" />
+   <Button fx:id="btnNivelAcesso" layoutX="88.0" layoutY="188.0" mnemonicParsing="false" onAction="#btnNivelAcessoOnClick" prefHeight="25.0" prefWidth="186.0" text="NÍVEL DE ACESSO" />
+   <Button fx:id="btnCarrinhoCompras" layoutX="207.0" layoutY="256.0" mnemonicParsing="false" onAction="#btnCarrinhoComprasOnClick" prefWidth="186.0" text="CARRINHO DE COMPRAS" />
+   <Button fx:id="btnCadastroCliente" layoutX="344.0" layoutY="125.0" mnemonicParsing="false" onAction="#btnCadastroClienteOnClick" prefWidth="186.0" text="CADASTRO DE CLIENTES" />
+   <Button fx:id="btnCadastroProduto" layoutX="344.0" layoutY="188.0" mnemonicParsing="false" onAction="#btnCadastroProdutoOnClick" prefWidth="186.0" text="CADASTRO DE PRODUTOS" />
+   <Label layoutX="253.0" layoutY="46.0" text="MENU PRINCIPAL" />
+</Pane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ecommerce.view.CadastroProdutoView">
+   <TextField fx:id="txtNome" alignment="CENTER" layoutX="215.0" layoutY="100.0" prefHeight="25.0" prefWidth="170.0" promptText="NOME DO PRODUTO" />
+   <TextField fx:id="txtDescricao" alignment="CENTER" layoutX="215.0" layoutY="138.0" promptText="DESCRICAO" />
+   <TextField fx:id="txtPreco" alignment="CENTER" layoutX="215.0" layoutY="225.0" prefHeight="25.0" prefWidth="170.0" promptText="PREÇO" />
+   <TextField fx:id="txtQuantidade" alignment="CENTER" layoutX="215.0" layoutY="189.0" prefHeight="25.0" prefWidth="170.0" promptText="QUANTIDADE" />
+   <Button fx:id="btnCadastrar" layoutX="251.0" layoutY="281.0" mnemonicParsing="false" onAction="#btnCadastrarOnClick" text="CADASTRAR" />
+   <Label layoutX="229.0" layoutY="56.0" text="CADASTRO DE PRODUTOS" />
+</Pane>
